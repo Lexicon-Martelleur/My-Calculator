@@ -1,8 +1,8 @@
 const method = {
-    ADDITION: '+',
-    SUBTRACTION: '-',
-    MULTIPLICATION: '*',
-    DEVISION: '/'
+    ADDITION: "+",
+    SUBTRACTION: "-",
+    MULTIPLICATION: "*",
+    DEVISION: "/"
 }
 
 function startCalculator() {
@@ -14,7 +14,7 @@ function startCalculator() {
         case method.ADDITION: handleAddition(num1, num2); break;
         case method.SUBTRACTION: handleSubtraction(num1, num2); break;
         case method.MULTIPLICATION: handleMultiplikation(num1, num2); break;
-        case method.DEVISION: handleDevision(num1, num2); break;
+        case method.DEVISION: handleDivision(num1, num2); break;
         default: handleDefault(); break;
     }
 
@@ -55,7 +55,7 @@ function handleMultiplikation (num1, num2) {
     alert(`The result of ${num1} * ${num2} is ${result}`);
 }
 
-function handleDevision (num1, num2) {
+function handleDivision (num1, num2) {
     if (num2 !== 0) {
         const result = num1 / num2;
         alert(`The result of ${num1} / ${num2} is ${result}`);
