@@ -1,0 +1,41 @@
+:root {
+    --BG_LIGHT: #fff;
+    --BG_MEDIUM: #f4f4f4;
+    --BG_OK_HOVER: #00cc00;
+    --BG_OK: #218838;
+    --FONT--PRIMARY: Arial, sans-serif;
+    --TEXT_PRIMARY: #fff
+}
+
+.body {
+    font-family: var(--FONT--PRIMARY);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: var(--BG_MEDIUM);
+}
+
+.calulator_ctr {
+    text-align: center;
+    background: var(--BG_LIGHT);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.start_button {
+    background-color: var(--BG_OK);
+    color: var(--BG_LIGHT);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start_button:hover {
+    background-color: var(--BG_OK_HOVER);
+}

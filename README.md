@@ -13,5 +13,3 @@
 5. Inkludera en else _( eller en default )_ i slutet som hanterar alla utfall, om till exempel räknesättet skrivs in fel så det inte känns igen eller liknande.
 
 Lägga gärna till lite skjyssta alerts innan och efter som hälsar en välkommen och säger hejdå och så.
-# My-Calculator
-# My-Calculator
