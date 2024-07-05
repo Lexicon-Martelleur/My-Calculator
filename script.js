@@ -3,7 +3,7 @@ const method = {
     SUBTRACTION: "-",
     MULTIPLICATION: "*",
     DEVISION: "/"
-}
+};
 
 function startCalculator() {
     loadStringUtilityFunctions();
