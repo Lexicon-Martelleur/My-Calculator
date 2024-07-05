@@ -6,10 +6,10 @@ const method = {
 }
 
 function startCalculator() {
-    loadStringUtilityFunctions()
+    loadStringUtilityFunctions();
     alert("Welcome to My Calculator!");
+
     const { num1, num2, operation } = getOperationData();
-    
     switch (operation) {
         case method.ADDITION: handleAddition(num1, num2); break;
         case method.SUBTRACTION: handleSubtraction(num1, num2); break;
